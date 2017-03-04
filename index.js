@@ -4,7 +4,7 @@ var _ = require('lodash');
 var argv = require('yargs').argv;
 var pool;
 
-function setConfig() {
+function setConfig(config) {
   config.host = argv.mysql_host || config.host;
   config.user = argv.mysql_user || config.user;
   config.password = argv.mysql_password || config.password;
