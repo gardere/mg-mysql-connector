@@ -1,0 +1,8 @@
+module.exports = {
+  host: 'HOSTNANE_OR_IP',
+  user: 'MYSQL_USERNAME',
+  password: 'MYSQL_PASSWORD',
+  schema: 'DB_SCHEMA',
+  charset: 'UTF8_UNICODE_CI'
+};
+

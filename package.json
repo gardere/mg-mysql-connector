@@ -1,0 +1,29 @@
+{
+  "name": "mg-mysql-connector",
+  "version": "1.0.0",
+  "description": "MySQL helper - makes querying a mysql data source a bit easier, all with promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gardere/mg-mysql-connector.git"
+  },
+  "keywords": [
+    "MySQL",
+    "NodeJS"
+  ],
+  "author": "Mathieu Gardere <wam@mathieugardere.co.uk> (http://www.gardere.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gardere/mg-mysql-connector/issues"
+  },
+  "homepage": "https://github.com/gardere/mg-mysql-connector#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mysql": "^2.13.0",
+    "q": "^1.4.1",
+    "yargs": "^7.0.1"
+  }
+}
